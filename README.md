@@ -22,4 +22,4 @@
 <br/><br/>
 ### 2022년8월31일수요일 오전12시4분
 <br/>
-https://hyeona89.github.io/HTML/1.html 이것이 나의 첫 웹서버 ><!! 야호~
+https://hyeona89.github.io/HTML/1.html 이것이 나의 첫 웹서버!! 야호~
