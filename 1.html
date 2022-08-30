@@ -1,4 +1,16 @@
 <!--ctrl+o해서 .html 파일 열려고 했는데 안 열려서 탐색기에서 직접 열었음.-->
+<!doctype html>
+<html>
+<!--본문을 설명하는
+    title, meta charset
+본문을 설명하는 건 head로 묶기-->
+<head>
+    <title>의식의 흐름대로 생활코딩</title>
+    <meta charset="utf-8">
+</head>
+    
+    <!--본문은 body로 묶기-->
+<body>
 <h1 style="color:FF4500;">의식의 흐름대로 생활코딩</h1>
 <strong style="color:32CD32;">strong은 굵게</strong>
 <br/>
@@ -23,3 +35,34 @@ h는 줄바꿈이 되네
 <br/><br/><br/><br/><br/><br/><br/>
 <h2 style="color:32CD32;"> <p>This is some text in a paragraph.</h2> p 태그는 단락까지 알려주는 줄바꿈 태그!!  style="margin-top:??px;" 이걸 붙이면 간격까지 설정할 수 있다.</p>
 <p style="margin-top:100px;">이렇게</p>
+
+<strong><2022년 8월 30일></strong><br/>
+사진을 붙여보았다.<br/>
+<img src="newyork.jpg" width="30%">
+<p style="color:32CD32;">width는 사진 크기를 설정해줌. src이랑은 순서 상관없음.</p>
+<br/>
+
+<p style="color:32CD32;">목차를 만들고 싶을 땐, li(list)</p>
+li의 부모로 ul(unordered list)을 쓰면,
+<ul>
+    <li>바나나</li>
+    <li>돈가스</li>
+    <li>엽떡</li>
+</ul>
+<br/>
+li의 부모로 ol(ordered list)을 쓰면,
+<ol>
+    <li>바나나</li>
+    <li>돈가스</li>
+    <li>엽떡</li>
+</ol>
+
+전체는 <strong>html</strong> (관용적으로 html 상위에는 !doctype html을 씀)<br/>
+본문을 설명하는 건 <strong>head</strong> -> title, meta charset...<br/>
+본문은 <strong>body</strong><br/>
+<br/>
+근데.. 이걸 html, head, body 태그를 하고 나니까 style 색상해둔 것이 사라져버렸다.
+
+
+</body>
+</html>
