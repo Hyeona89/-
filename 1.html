@@ -7,14 +7,25 @@
 <head>
     <title>의식의 흐름대로 생활코딩</title>
     <meta charset="utf-8">
+    
+    <!-- 모든 a태그, new class에 색을 넣어줘 -->
+    <style>
+    a {
+        color:blue;
+        text-decoration: none;
+    }
+    .new{
+        color:green;
+    }
+    </style>
 </head>
     
     <!--본문은 body로 묶기-->
 <body>
-<h1 style="color:FF4500;">의식의 흐름대로 생활코딩</h1>
-<strong style="color:32CD32;">strong은 굵게</strong>
+<h1 style="color:brown; font-size: 50px; text-align: center;">의식의 흐름대로 생활코딩</h1>
+<strong class="new">strong은 굵게</strong>
 <br/>
-<u style="color:32CD32;">u는 밑줄</u>
+<u class="new">u는 밑줄</u>
 <br/><br/>
 <strong><2022년 8월 29일></strong>
 <br/>
@@ -33,37 +44,60 @@ h는 줄바꿈이 되네
 
 
 <br/><br/><br/><br/><br/><br/><br/>
-<h2 style="color:32CD32;"><p>This is some text in a paragraph.</h2> p 태그는 단락까지 알려주는 줄바꿈 태그!!  style="margin-top:??px;" 이걸 붙이면 간격까지 설정할 수 있다.</p>
+<h2 class="new"><p>This is some text in a paragraph.</h2> p 태그는 단락까지 알려주는 줄바꿈 태그!!  style="margin-top:??px;" 이걸 붙이면 간격까지 설정할 수 있다.</p>
 <p style="margin-top:100px;">이렇게</p>
 
 <strong><2022년 8월 30일></strong><br/>
 사진을 붙여보았다.<br/>
 <img src="newyork.jpg" width="30%">
-<p style="color:32CD32;">width는 사진 크기를 설정해줌. src이랑은 순서 상관없음.</p>
+<p class="new">width는 사진 크기를 설정해줌. src이랑은 순서 상관없음.</p>
 <br/>
 
-<p style="color:32CD32;">목차를 만들고 싶을 땐, li(list)</p>
+<p class="new">목차를 만들고 싶을 땐, li(list)</p>
 li의 부모로 ul(unordered list)을 쓰면,
 <ul>
-    <li>바나나</li>
+    <li>바나나</li> 
     <li>돈가스</li>
     <li>엽떡</li>
 </ul>
 <br/>
 li의 부모로 ol(ordered list)을 쓰면,
 <ol>
-    <li><a href="banana.html" target="_blank">바나나</a></li>
-    <li><a href="tonkatsu.html" target="_blank">돈가스</a></li>
-    <li><a href="yeopdduk.html" target="_blank">엽떡</a></li>
+    <li><a href="banana.html" target="_blank">바나나</a> <- 클릭</li>
+    <li><a href="tonkatsu.html" target="_blank">돈가스</a> <- 클릭</li>
+    <li><a href="yeopdduk.html" target="_blank">엽떡</a> <- 클릭</li>
 </ol>
 
-전체는 <strong>html</strong> (관용적으로 html 상위에는 !doctype html을 씀)<br/>
-본문을 설명하는 건 <strong>head</strong> -> title, meta charset...<br/>
-본문은 <strong>body</strong><br/>
+전체는 <strong class="new">html</strong> (관용적으로 html 상위에는 !doctype html을 씀)<br/>
+본문을 설명하는 건 <strong class="new">head</strong> -> title, meta charset...<br/>
+본문은 <strong class="new">body</strong><br/>
 <br/>
 근데.. 이걸 html, head, body 태그를 하고 나니까 style 색상해둔 것이 사라져버렸다.
 
 <br/>
-나의 인스타그램으로 들어가려면 <a href="https://www.instagram.com/avelyicanfly/" target="_blank" title="김구보의 인스타그램">이곳을</a>누르세요.
+나의 인스타그램으로 들어가려면 <a href="https://www.instagram.com/avelyicanfly/" target="_blank" title="김구보의 인스타그램" style="text-decoration:underline">이곳을</a> 누르세요.
+
+<p>
+    <strong><2022년 8월 31일></strong><br/>
+    일단은 내일 개강... 신난다ㅎ</p>
+    
+    유튜브 영상 넣어봄! iframe으로
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1Ckc0fD5jHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br/>내사랑들<br/><br/>
+..댓글이랑 채팅은 안 된다.<br/>
+
+<br/>
+<h2>CSS</h2>
+CSS 시작! 내가 색상 바꾸려고 했던 style="" 이게 CSS의 효과였다니. HTML의 속성이라고 한다고 한다.<br/>
+<p><strong>웹페이지에 CSS를 사용하는 방법</strong><br/>
+<ol>
+    <li>style 태그</li>
+    <li>style 속성</li>
+</ol></p>
+<p><strong>선택자</strong><br/>  id(#) > class(.) > tag<br/>!!주의!! id는 단 한번만</p>
+<p><br/>화면 전체를 쓰는 것: block level element</p>
+<p>자기 자신의 크기만큼을 쓰는 것: inline element</p>
+
+
 </body>
 </html>
